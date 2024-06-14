@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ContactController!{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+    <div class="wrapper">
+    <form class="form-signin">       
+      <h2 class="form-signin-heading">Please login</h2>
+      <input type="text" class="form-control" name="username" placeholder="username"/>
+      <input  placeholder="email" /> 
+      <input  placeholder="subject" />      
+      <input  placeholder="message" /> 
+      
+      <button class="btn btn-lg btn-primary btn-block" type="submit">envoyer</button>   
+    </form>
+    
+  </div>
+</div>
+{% endblock %}
